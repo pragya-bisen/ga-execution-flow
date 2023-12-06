@@ -80,5 +80,5 @@ jobs:
     if: failure()
     runs-on: macos-latest
     steps:
-      name: Output Information
-      run: ${{github}}
+      - name: Output Information
+        run: ${{github}}
