@@ -72,7 +72,7 @@ jobs:
     with:
       artifact-name: dist-files
     # secrets:
-    #   some-secret: ${{secret.some-secret}}
+      # some-secret: ${{secret.some-secret}}
   print-deploy-result:
     needs: deploy
     runs-on: macos-latest
