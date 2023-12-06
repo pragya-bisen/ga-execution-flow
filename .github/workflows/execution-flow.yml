@@ -81,4 +81,6 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Output Information
-        run: ${{github}}
+        run: |
+          echo "Something went wrong"
+          echo "${{github}}"
